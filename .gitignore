@@ -1,0 +1,7 @@
+# Auto generated folders
+.vs/*
+bin/*
+obj/*
+
+# Auto generated user files
+*.user
