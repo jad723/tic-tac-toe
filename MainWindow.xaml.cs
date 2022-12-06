@@ -105,6 +105,9 @@ namespace Tic_Tac_Toe
             // Set button text to the result
             button.Content = mPlayer1Turn ? "X" : "O";
 
+            // Change noughts to green
+            if (!mPlayer1Turn) button.Foreground = Brushes.Red;
+
             // Toggle the player turns
             mPlayer1Turn ^= true;  
          
