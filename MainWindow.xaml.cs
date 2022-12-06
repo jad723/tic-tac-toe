@@ -104,6 +104,9 @@ namespace Tic_Tac_Toe
 
             // Set button text to the result
             button.Content = mPlayer1Turn ? "X" : "O";
+
+            // Toggle the player turns
+            mPlayer1Turn ^= true;  
          
         }
     }
